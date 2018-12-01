@@ -40,11 +40,11 @@ section {
 }
 
 .set-bk-clr {
-    background-color: #FF2276;
+    background-color: #1C0030;
 }
 
 .clr-set {
-    color: #FF2276;
+    color: #1C0030;
 }
 
 .f-big {
@@ -93,7 +93,7 @@ padding:0px;
     }
 
 .navbar-default {
-    background-color: #FF2276;
+    background-color: #1C0030;
     border-color: transparent;
 }
 /* ADDED PADDING IN NAVBAR */
@@ -144,7 +144,7 @@ padding:0px;
         font-weight: 900;
         padding-top: 180px;
         padding-bottom: 35px;
-        color: #FF2276;
+        color: #1C0030;
     }
 
 
@@ -165,7 +165,7 @@ padding:0px;
     #services i {
         font-size: 80px;
         padding: 30px;
-        color: #FF2276;
+        color: #1C0030;
     }
 
     #services h4 {
@@ -200,14 +200,14 @@ padding:0px;
 }
 
     .clients-carousel .thumbnail {
-        border: 1px solid #FF2276;
+        border: 1px solid #1C0030;
     }
 
     .clients-carousel .carousel-control.left {
         height: 30px;
         width: 25px;
         margin-top: 45px;
-        background: #FF2276;
+        background: #1C0030;
         left: -15px;
     }
 
@@ -215,7 +215,7 @@ padding:0px;
         height: 30px;
         width: 25px;
         margin-top: 45px;
-        background: #FF2276;
+        background: #1C0030;
         right: -15px;
     }
 
@@ -234,8 +234,8 @@ padding:0px;
 
 /* FOR CHANGING COLOR OF ACTIVE CATEGORY */
 .caegories a.active {
-    background-color: #FF2276;
-    border: 2px solid #FF2276;
+    background-color: #1C0030;
+    border: 2px solid #1C0030;
 }
 
 /* FOR TRANSITION BEAUTIFULLY */
@@ -246,7 +246,7 @@ padding:0px;
 }
 
 #works .work-wrapper {
-    border: 2px solid #FF2276;
+    border: 2px solid #1C0030;
     padding: 2px;
     margin: 5px 5px 10px 5px;
 }
@@ -293,7 +293,7 @@ padding:0px;
     margin-right: 40px;
     max-height: 150px;
     margin-bottom: 20px;
-    border: 2px solid #FF2276;
+    border: 2px solid #1C0030;
 }
 
     .media img:hover {
