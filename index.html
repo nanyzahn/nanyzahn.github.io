@@ -223,33 +223,34 @@ Veja abaixo meu currículum.</p>
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-          <form name="sentMessage" id="contactForm" action="enviar.php" novalidate="novalidate" method="post" >
-          <input type="hidden" value="assunto" id="assunto">
+          <form  id="contactForm" action="enviar.php"  method="post" >
+         <input type="hidden" value="Contato Pelo Site Nayara Zahn" class="form-control" name="assunto" id="assunto" >
+														<input type="hidden" name="to" value="nanyzahn@hotmail.com"/>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Nome</label>
-                <input class="form-control" id="name" type="text" placeholder="Nome" required="required" data-validation-required-message="Digite seu Nome.">
+                <input class="form-control" id="name" name="name" type="text" placeholder="Nome" required="required" data-validation-required-message="Digite seu Nome.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Email </label>
-                <input class="form-control" id="email" type="email" placeholder="Email" required="required" data-validation-required-message="Digite seu Email.">
+                <input class="form-control" id="email" name="email" type="email" placeholder="Email" required="required" data-validation-required-message="Digite seu Email.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Telefone</label>
-                <input class="form-control" id="phone" type="tel" placeholder="Telefone" required="required" data-validation-required-message="Digite seu Telefone.">
+                <input class="form-control" id="phone" name="phone" type="tel" placeholder="Telefone" required="required" data-validation-required-message="Digite seu Telefone.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Mensagem</label>
-                <textarea class="form-control" id="message" rows="5" placeholder="Mensagem" required="required" data-validation-required-message="Digite sua Mensagem."></textarea>
+                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Mensagem" required="required" data-validation-required-message="Digite sua Mensagem."></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
